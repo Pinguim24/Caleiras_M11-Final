@@ -1,0 +1,98 @@
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.exe
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.deps.json
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.runtimeconfig.json
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.dll
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.pdb
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Form1.resources
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.csproj.GenerateResource.cache
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.AssemblyInfoInputs.cache
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.AssemblyInfo.cs
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.dll
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\refint\Trabalho_Final_Verção 2.dll
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.pdb
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.genruntimeconfig.cache
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\ref\Trabalho_Final_Verção 2.dll
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Properties.Resources.resources
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.exe
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.deps.json
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.runtimeconfig.json
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.dll
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.pdb
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Form1.resources
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Properties.Resources.resources
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.csproj.GenerateResource.cache
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.AssemblyInfoInputs.cache
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.AssemblyInfo.cs
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.csproj.CoreCompileInputs.cache
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.dll
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\refint\Trabalho_Final_Verção 2.dll
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.pdb
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.genruntimeconfig.cache
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\ref\Trabalho_Final_Verção 2.dll
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Instalacao.resources
+C:\Users\pingu\Documents\GitHub\modulo-9-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Medicao.resources
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Instalacao.resources
+G:\Mi unidad\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Medicao.resources
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.exe
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.deps.json
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.runtimeconfig.json
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.dll
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.pdb
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.csproj.AssemblyReference.cache
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Form1.resources
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Instalacao.resources
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Medicao.resources
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Properties.Resources.resources
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.csproj.GenerateResource.cache
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.GeneratedMSBuildEditorConfig.editorconfig
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.AssemblyInfoInputs.cache
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.AssemblyInfo.cs
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.csproj.CoreCompileInputs.cache
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.dll
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\refint\Trabalho_Final_Verção 2.dll
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.pdb
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.genruntimeconfig.cache
+G:\O meu disco\Progamação 11º\M9\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\ref\Trabalho_Final_Verção 2.dll
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.exe
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.deps.json
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.runtimeconfig.json
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.dll
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.pdb
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.csproj.AssemblyReference.cache
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Form1.resources
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Instalacao.resources
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Medicao.resources
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Properties.Resources.resources
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.csproj.GenerateResource.cache
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.AssemblyInfoInputs.cache
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.AssemblyInfo.cs
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.csproj.CoreCompileInputs.cache
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.dll
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\refint\Trabalho_Final_Verção 2.dll
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.pdb
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.genruntimeconfig.cache
+C:\Users\tiago\Desktop\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\ref\Trabalho_Final_Verção 2.dll
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.exe
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.deps.json
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.runtimeconfig.json
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.dll
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\bin\Debug\net6.0-windows\Trabalho_Final_Verção 2.pdb
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.csproj.AssemblyReference.cache
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Form1.resources
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Instalacao.resources
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Medicao.resources
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.Properties.Resources.resources
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.csproj.GenerateResource.cache
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.AssemblyInfoInputs.cache
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.AssemblyInfo.cs
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.csproj.CoreCompileInputs.cache
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.dll
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\refint\Trabalho_Final_Verção 2.dll
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.pdb
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.genruntimeconfig.cache
+C:\Users\tiago\Documents\GitHub\M10\modulo-10-tarefa-final-Pinguim27\Trabalho Final\Trabalho Final\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\ref\Trabalho_Final_Verção 2.dll
