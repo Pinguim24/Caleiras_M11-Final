@@ -17,113 +17,170 @@ namespace Trabalho_Final_Verção_2
 
         }
 
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            // Verifica se a janela está sendo maximizada
+            if (this.WindowState == FormWindowState.Maximized)
+            {
+                pictureBox1.Dock = DockStyle.Fill;
+            }
+        }
 
         //Menu
         private void button1_Click(object sender, EventArgs e)
         {
-            barrapreta.Height = button1.Height;
-            barrapreta.Top = button1.Top;
-            groupBox1.Visible = true;
+            try
+            {
+                barrapreta.Height = button1.Height;
+                barrapreta.Top = button1.Top;
+                groupBox1.Visible = true;
 
 
-            //Por tudo o que n é serviço invisivel
-            groupBox2.Visible = false;
-            groupBox3.Visible = false;
-            groupBox8.Visible = false;
+                //Por tudo o que n é serviço invisivel
+                groupBox2.Visible = false;
+                groupBox3.Visible = false;
+                groupBox8.Visible = false;
+            }
+            catch 
+            {
+                MessageBox.Show("Erro no Início", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            barrapreta.Height = button2.Height;
-            barrapreta.Top = button2.Top;
-            groupBox2.Visible = true;
+            try
+            {
+                barrapreta.Height = button2.Height;
+                barrapreta.Top = button2.Top;
+                groupBox2.Visible = true;
 
 
-            //Por tudo o que n é serviço invisivel
-            groupBox1.Visible = false;
-            groupBox3.Visible = false;
-            groupBox8.Visible = false;
+                //Por tudo o que n é serviço invisivel
+                groupBox1.Visible = false;
+                groupBox3.Visible = false;
+                groupBox8.Visible = false;
+            }
+            catch 
+            {
+                MessageBox.Show("Erro em Serviços", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            barrapreta.Height = button3.Height;
-            barrapreta.Top = button3.Top;
-            groupBox3.Visible = true;
+            try
+            {
+                barrapreta.Height = button3.Height;
+                barrapreta.Top = button3.Top;
+                groupBox3.Visible = true;
 
 
-            //Por tudo o que n é produtos invisivel
-            groupBox1.Visible = false;
-            groupBox2.Visible = false;
-            groupBox8.Visible = false;
+                //Por tudo o que n é produtos invisivel
+                groupBox1.Visible = false;
+                groupBox2.Visible = false;
+                groupBox8.Visible = false;
+            }
+            catch 
+            {
+                MessageBox.Show("Erro em Produtos", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            barrapreta.Height = button4.Height;
-            barrapreta.Top = button4.Top;
-
-
-            //Por tudo o que n é carrinho invisivel
-            groupBox1.Visible = false;
-            groupBox2.Visible = false;
-            groupBox3.Visible = false;
-
-
-            //Mostrar Coisas do Carrinho
-            groupBox8.Visible = true;
-
-
-            //Ocultar tudo o resto
-            groupBox9.Visible = false;
-            groupBox10.Visible = false;
-            groupBox11.Visible = false;
-            groupBox12.Visible = false;
-
-
-            //Verificar se o botão foi usado
-
-            if (cla3.cont == 1)
+            try
             {
-                groupBox9.Visible = true;
-            }
+                barrapreta.Height = button4.Height;
+                barrapreta.Top = button4.Top;
 
-            if (cla3.cont2 == 1)
+
+                //Por tudo o que n é carrinho invisivel
+                groupBox1.Visible = false;
+                groupBox2.Visible = false;
+                groupBox3.Visible = false;
+
+
+                //Mostrar Coisas do Carrinho
+                groupBox8.Visible = true;
+
+
+                //Ocultar tudo o resto
+                groupBox9.Visible = false;
+                groupBox10.Visible = false;
+                groupBox11.Visible = false;
+                groupBox12.Visible = false;
+
+
+                //Verificar se o botão foi usado
+
+                if (cla3.cont == 1)
+                {
+                    groupBox9.Visible = true;
+                }
+
+                if (cla3.cont2 == 1)
+                {
+                    groupBox10.Visible = true;
+                }
+
+                if (cla3.cont3 == 1)
+                {
+                    groupBox11.Visible = true;
+                }
+
+                if (cla3.cont4 == 1)
+                {
+                    groupBox12.Visible = true;
+                }
+
+                textBox1.Text = Convert.ToString(cla3.Total() + "€");
+            }
+            catch
             {
-                groupBox10.Visible = true;
+                MessageBox.Show("Erro no Carrinho", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-
-            if (cla3.cont3 == 1)
-            {
-                groupBox11.Visible = true;
-            }
-
-            if (cla3.cont4 == 1)
-            {
-                groupBox12.Visible = true;
-            }
-
-            textBox1.Text = Convert.ToString(cla3.Total() + "€");
         }
 
 
         //Botão Acerca de...
         private void button5_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("App feita por Tiago Condeço Cavalho 🐧 \n\n Trabalhador Mário Carvalho (Meu Pai)");
+            try
+            {
+                MessageBox.Show("App feita por Tiago Condeço Cavalho 🐧 \n\n Trabalhador Mário Carvalho (Meu Pai)", "Acerca de...", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch
+            {
+                MessageBox.Show("Erro no Acerca de...", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Instalacao instalacao = new Instalacao();
-            instalacao.Show();
+            try
+            {
+                Instalacao instalacao = new Instalacao();
+                instalacao.Show();
+            }
+            catch 
+            {
+                MessageBox.Show("Erro ao fazer o pedido", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
 
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Medicao medicao = new Medicao();
-            medicao.Show();
+            try
+            {
+                Medicao medicao = new Medicao();
+                medicao.Show();
+            }
+            catch
+            {
+                MessageBox.Show("Erro ao fazer pedido", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
 
@@ -133,13 +190,20 @@ namespace Trabalho_Final_Verção_2
         //1
         private void button8_Click(object sender, EventArgs e)
         {
-            cla3.valor = 12;
+            try
+            {
+                cla3.valor = 12;
 
-            button8.Enabled = false;
+                button8.Enabled = false;
 
-            numericUpDown1.Value = 1;
+                numericUpDown1.Value = 1;
 
-            cla3.cont = 1;
+                cla3.cont = 1;
+            }
+            catch 
+            {
+                MessageBox.Show("Erro ao adicionar ao carrinho", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
@@ -168,13 +232,20 @@ namespace Trabalho_Final_Verção_2
         //2
         private void button9_Click(object sender, EventArgs e)
         {
-            cla3.valor2 = 2.5;
+            try
+            {
+                cla3.valor2 = 2.5;
 
-            button9.Enabled = false;
+                button9.Enabled = false;
 
-            numericUpDown2.Value = 1;
+                numericUpDown2.Value = 1;
 
-            cla3.cont2 = 1;
+                cla3.cont2 = 1;
+            }
+            catch
+            {
+                MessageBox.Show("Erro ao adicionar ao carrinho", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void numericUpDown2_ValueChanged(object sender, EventArgs e)
@@ -203,13 +274,20 @@ namespace Trabalho_Final_Verção_2
         //3
         private void button10_Click(object sender, EventArgs e)
         {
-            cla3.valor3 = 3;
+            try
+            {
+                cla3.valor3 = 3;
 
-            button10.Enabled = false;
+                button10.Enabled = false;
 
-            numericUpDown3.Value = 1;
+                numericUpDown3.Value = 1;
 
-            cla3.cont3 = 1;
+                cla3.cont3 = 1;
+            }
+            catch
+            {
+                MessageBox.Show("Erro ao adicionar ao carrinho", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void numericUpDown3_ValueChanged(object sender, EventArgs e)
@@ -238,13 +316,20 @@ namespace Trabalho_Final_Verção_2
         //4
         private void button11_Click(object sender, EventArgs e)
         {
-            cla3.valor4 = 9;
+            try
+            {
+                cla3.valor4 = 9;
 
-            button11.Enabled = false;
+                button11.Enabled = false;
 
-            numericUpDown4.Value = 1;
+                numericUpDown4.Value = 1;
 
-            cla3.cont4 = 1;
+                cla3.cont4 = 1;
+            }
+            catch
+            {
+                MessageBox.Show("Erro ao adicionar ao carrinho", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void numericUpDown4_ValueChanged(object sender, EventArgs e)
@@ -273,50 +358,78 @@ namespace Trabalho_Final_Verção_2
         //Remover
         private void button12_Click(object sender, EventArgs e)
         {
-            groupBox9.Visible = false;
+            try
+            {
+                groupBox9.Visible = false;
 
-            cla3.total = Math.Round(cla3.Total() - cla3.valor, 2);
+                cla3.total = Math.Round(cla3.Total() - cla3.valor, 2);
 
-            textBox1.Text = Convert.ToString(cla3.total);
+                textBox1.Text = Convert.ToString(cla3.total);
 
-            numericUpDown1.Value = 0;
-            cla3.valor = 0;
+                numericUpDown1.Value = 0;
+                cla3.valor = 0;
+            }
+            catch
+            {
+                MessageBox.Show("Erro ao remover", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            groupBox10.Visible = false;
+            try
+            {
+                groupBox10.Visible = false;
 
-            cla3.total = Math.Round(cla3.Total() - cla3.valor2, 2);
+                cla3.total = Math.Round(cla3.Total() - cla3.valor2, 2);
 
-            textBox1.Text = Convert.ToString(cla3.total);
+                textBox1.Text = Convert.ToString(cla3.total);
 
-            numericUpDown2.Value = 0;
-            cla3.valor2 = 0;
+                numericUpDown2.Value = 0;
+                cla3.valor2 = 0;
+            }
+            catch
+            {
+                MessageBox.Show("Erro ao remover", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            groupBox11.Visible = false;
+            try
+            {
+                groupBox11.Visible = false;
 
-            cla3.total = Math.Round(cla3.Total() - cla3.valor3, 2);
+                cla3.total = Math.Round(cla3.Total() - cla3.valor3, 2);
 
-            textBox1.Text = Convert.ToString(cla3.total);
+                textBox1.Text = Convert.ToString(cla3.total);
 
-            numericUpDown3.Value = 0;
-            cla3.valor3 = 0;
+                numericUpDown3.Value = 0;
+                cla3.valor3 = 0;
+            }
+            catch
+            {
+                MessageBox.Show("Erro ao remover", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            groupBox12.Visible = false;
+            try
+            {
+                groupBox12.Visible = false;
 
-            cla3.total = Math.Round(cla3.Total() - cla3.valor4, 2);
+                cla3.total = Math.Round(cla3.Total() - cla3.valor4, 2);
 
-            textBox1.Text = Convert.ToString(cla3.total);
+                textBox1.Text = Convert.ToString(cla3.total);
 
-            numericUpDown4.Value = 0;
-            cla3.valor4 = 0;
+                numericUpDown4.Value = 0;
+                cla3.valor4 = 0;
+            }
+            catch
+            {
+                MessageBox.Show("Erro ao remover", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

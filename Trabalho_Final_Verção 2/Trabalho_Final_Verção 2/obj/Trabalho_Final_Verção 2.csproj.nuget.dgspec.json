@@ -1,31 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tiago\\Documents\\GitHub\\M10\\modulo-10-tarefa-final-Pinguim27\\Trabalho Final\\Trabalho Final\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2.csproj": {}
+    "C:\\Users\\pingu\\OneDrive\\Documentos\\GitHub\\M11\\modulo-11-tarefa-final-Pinguim27\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tiago\\Documents\\GitHub\\M10\\modulo-10-tarefa-final-Pinguim27\\Trabalho Final\\Trabalho Final\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2.csproj": {
+    "C:\\Users\\pingu\\OneDrive\\Documentos\\GitHub\\M11\\modulo-11-tarefa-final-Pinguim27\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tiago\\Documents\\GitHub\\M10\\modulo-10-tarefa-final-Pinguim27\\Trabalho Final\\Trabalho Final\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2.csproj",
+        "projectUniqueName": "C:\\Users\\pingu\\OneDrive\\Documentos\\GitHub\\M11\\modulo-11-tarefa-final-Pinguim27\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2.csproj",
         "projectName": "Trabalho_Final_Verção 2",
-        "projectPath": "C:\\Users\\tiago\\Documents\\GitHub\\M10\\modulo-10-tarefa-final-Pinguim27\\Trabalho Final\\Trabalho Final\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2.csproj",
-        "packagesPath": "C:\\Users\\tiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tiago\\Documents\\GitHub\\M10\\modulo-10-tarefa-final-Pinguim27\\Trabalho Final\\Trabalho Final\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2\\obj\\",
+        "projectPath": "C:\\Users\\pingu\\OneDrive\\Documentos\\GitHub\\M11\\modulo-11-tarefa-final-Pinguim27\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2.csproj",
+        "packagesPath": "C:\\Users\\pingu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pingu\\OneDrive\\Documentos\\GitHub\\M11\\modulo-11-tarefa-final-Pinguim27\\Trabalho_Final_Verção 2\\Trabalho_Final_Verção 2\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\pingu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
@@ -61,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

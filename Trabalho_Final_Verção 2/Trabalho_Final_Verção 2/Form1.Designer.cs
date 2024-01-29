@@ -144,7 +144,7 @@
             panel1.Controls.Add(button2);
             panel1.Location = new Point(0, -3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(167, 426);
+            panel1.Size = new Size(167, 466);
             panel1.TabIndex = 0;
             // 
             // button1
@@ -179,7 +179,7 @@
             button5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             button5.Image = (Image)resources.GetObject("button5.Image");
             button5.ImageAlign = ContentAlignment.MiddleLeft;
-            button5.Location = new Point(3, 383);
+            button5.Location = new Point(4, 420);
             button5.Name = "button5";
             button5.Size = new Size(41, 39);
             button5.TabIndex = 2;
@@ -247,7 +247,7 @@
             groupBox1.FlatStyle = FlatStyle.Flat;
             groupBox1.Location = new Point(167, -1);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(630, 427);
+            groupBox1.Size = new Size(725, 464);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             // 
@@ -256,7 +256,7 @@
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(0, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(630, 422);
+            pictureBox1.Size = new Size(727, 463);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -269,7 +269,7 @@
             groupBox2.Controls.Add(pictureBox2);
             groupBox2.Location = new Point(168, 1);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(628, 422);
+            groupBox2.Size = new Size(730, 462);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             // 
@@ -277,7 +277,7 @@
             // 
             button7.FlatStyle = FlatStyle.Popup;
             button7.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button7.Location = new Point(406, 303);
+            button7.Location = new Point(480, 337);
             button7.Name = "button7";
             button7.Size = new Size(149, 29);
             button7.TabIndex = 3;
@@ -289,7 +289,7 @@
             // 
             button6.FlatStyle = FlatStyle.Popup;
             button6.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            button6.Location = new Point(83, 303);
+            button6.Location = new Point(114, 337);
             button6.Name = "button6";
             button6.Size = new Size(149, 29);
             button6.TabIndex = 2;
@@ -303,7 +303,7 @@
             label1.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(6, 19);
             label1.Name = "label1";
-            label1.Size = new Size(406, 54);
+            label1.Size = new Size(325, 45);
             label1.TabIndex = 1;
             label1.Text = "Serviços Disponíveis";
             // 
@@ -312,7 +312,7 @@
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(0, 8);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(628, 412);
+            pictureBox2.Size = new Size(724, 451);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
@@ -324,7 +324,7 @@
             groupBox3.FlatStyle = FlatStyle.Flat;
             groupBox3.Location = new Point(167, -8);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(631, 432);
+            groupBox3.Size = new Size(731, 471);
             groupBox3.TabIndex = 2;
             groupBox3.TabStop = false;
             // 
@@ -332,9 +332,9 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(9, 20);
+            label2.Location = new Point(1, 13);
             label2.Name = "label2";
-            label2.Size = new Size(195, 54);
+            label2.Size = new Size(158, 45);
             label2.TabIndex = 2;
             label2.Text = "Produtos";
             // 
@@ -347,7 +347,7 @@
             flowLayoutPanel1.Controls.Add(groupBox5);
             flowLayoutPanel1.Location = new Point(7, 71);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(622, 355);
+            flowLayoutPanel1.Size = new Size(720, 397);
             flowLayoutPanel1.TabIndex = 8;
             // 
             // groupBox7
@@ -359,7 +359,7 @@
             groupBox7.Controls.Add(numericUpDown1);
             groupBox7.Location = new Point(3, 3);
             groupBox7.Name = "groupBox7";
-            groupBox7.Size = new Size(595, 144);
+            groupBox7.Size = new Size(694, 144);
             groupBox7.TabIndex = 9;
             groupBox7.TabStop = false;
             // 
@@ -369,7 +369,7 @@
             label9.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             label9.Location = new Point(164, 51);
             label9.Name = "label9";
-            label9.Size = new Size(114, 25);
+            label9.Size = new Size(91, 20);
             label9.TabIndex = 5;
             label9.Text = "12 € / metro";
             // 
@@ -379,14 +379,14 @@
             label10.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label10.Location = new Point(160, 20);
             label10.Name = "label10";
-            label10.Size = new Size(228, 32);
+            label10.Size = new Size(176, 25);
             label10.TabIndex = 4;
             label10.Text = "Caleira - Alumímio";
             // 
             // button8
             // 
             button8.Image = (Image)resources.GetObject("button8.Image");
-            button8.Location = new Point(548, 96);
+            button8.Location = new Point(648, 92);
             button8.Name = "button8";
             button8.Size = new Size(40, 43);
             button8.TabIndex = 7;
@@ -406,9 +406,9 @@
             // numericUpDown1
             // 
             numericUpDown1.Enabled = false;
-            numericUpDown1.Location = new Point(499, 111);
+            numericUpDown1.Location = new Point(599, 107);
             numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(47, 27);
+            numericUpDown1.Size = new Size(47, 23);
             numericUpDown1.TabIndex = 6;
             numericUpDown1.ValueChanged += numericUpDown1_ValueChanged;
             // 
@@ -422,14 +422,14 @@
             groupBox6.Controls.Add(pictureBox5);
             groupBox6.Location = new Point(3, 153);
             groupBox6.Name = "groupBox6";
-            groupBox6.Size = new Size(593, 144);
+            groupBox6.Size = new Size(694, 144);
             groupBox6.TabIndex = 9;
             groupBox6.TabStop = false;
             // 
             // button9
             // 
             button9.Image = (Image)resources.GetObject("button9.Image");
-            button9.Location = new Point(548, 96);
+            button9.Location = new Point(648, 92);
             button9.Name = "button9";
             button9.Size = new Size(40, 43);
             button9.TabIndex = 7;
@@ -442,7 +442,7 @@
             label19.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             label19.Location = new Point(164, 51);
             label19.Name = "label19";
-            label19.Size = new Size(56, 25);
+            label19.Size = new Size(44, 20);
             label19.TabIndex = 8;
             label19.Text = "2,50€";
             // 
@@ -452,7 +452,7 @@
             label7.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             label7.Location = new Point(164, 51);
             label7.Name = "label7";
-            label7.Size = new Size(0, 25);
+            label7.Size = new Size(0, 20);
             label7.TabIndex = 5;
             // 
             // label8
@@ -461,16 +461,16 @@
             label8.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label8.Location = new Point(160, 20);
             label8.Name = "label8";
-            label8.Size = new Size(235, 32);
+            label8.Size = new Size(186, 25);
             label8.TabIndex = 4;
             label8.Text = "Suporte - Alto Inox";
             // 
             // numericUpDown2
             // 
             numericUpDown2.Enabled = false;
-            numericUpDown2.Location = new Point(499, 111);
+            numericUpDown2.Location = new Point(599, 107);
             numericUpDown2.Name = "numericUpDown2";
-            numericUpDown2.Size = new Size(47, 27);
+            numericUpDown2.Size = new Size(47, 23);
             numericUpDown2.TabIndex = 6;
             numericUpDown2.ValueChanged += numericUpDown2_ValueChanged;
             // 
@@ -493,7 +493,7 @@
             groupBox4.Controls.Add(numericUpDown3);
             groupBox4.Location = new Point(3, 303);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(595, 144);
+            groupBox4.Size = new Size(694, 144);
             groupBox4.TabIndex = 7;
             groupBox4.TabStop = false;
             // 
@@ -503,7 +503,7 @@
             label4.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             label4.Location = new Point(164, 51);
             label4.Name = "label4";
-            label4.Size = new Size(104, 25);
+            label4.Size = new Size(83, 20);
             label4.TabIndex = 5;
             label4.Text = "3 € / metro";
             // 
@@ -513,7 +513,7 @@
             label3.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(160, 20);
             label3.Name = "label3";
-            label3.Size = new Size(290, 32);
+            label3.Size = new Size(226, 25);
             label3.TabIndex = 4;
             label3.Text = "Par de Topos - Alumínio";
             // 
@@ -530,7 +530,7 @@
             // button10
             // 
             button10.Image = (Image)resources.GetObject("button10.Image");
-            button10.Location = new Point(548, 95);
+            button10.Location = new Point(648, 95);
             button10.Name = "button10";
             button10.Size = new Size(40, 43);
             button10.TabIndex = 7;
@@ -540,9 +540,9 @@
             // numericUpDown3
             // 
             numericUpDown3.Enabled = false;
-            numericUpDown3.Location = new Point(494, 109);
+            numericUpDown3.Location = new Point(594, 109);
             numericUpDown3.Name = "numericUpDown3";
-            numericUpDown3.Size = new Size(47, 27);
+            numericUpDown3.Size = new Size(47, 23);
             numericUpDown3.TabIndex = 6;
             numericUpDown3.ValueChanged += numericUpDown3_ValueChanged;
             // 
@@ -555,14 +555,14 @@
             groupBox5.Controls.Add(numericUpDown4);
             groupBox5.Location = new Point(3, 453);
             groupBox5.Name = "groupBox5";
-            groupBox5.Size = new Size(595, 144);
+            groupBox5.Size = new Size(694, 144);
             groupBox5.TabIndex = 8;
             groupBox5.TabStop = false;
             // 
             // button11
             // 
             button11.Image = (Image)resources.GetObject("button11.Image");
-            button11.Location = new Point(548, 96);
+            button11.Location = new Point(648, 95);
             button11.Name = "button11";
             button11.Size = new Size(40, 43);
             button11.TabIndex = 7;
@@ -575,7 +575,7 @@
             label5.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             label5.Location = new Point(164, 51);
             label5.Name = "label5";
-            label5.Size = new Size(104, 25);
+            label5.Size = new Size(83, 20);
             label5.TabIndex = 5;
             label5.Text = "9 € / metro";
             // 
@@ -585,7 +585,7 @@
             label6.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label6.Location = new Point(160, 20);
             label6.Name = "label6";
-            label6.Size = new Size(200, 32);
+            label6.Size = new Size(157, 25);
             label6.TabIndex = 4;
             label6.Text = "Tubo - Alumínio";
             // 
@@ -602,9 +602,9 @@
             // numericUpDown4
             // 
             numericUpDown4.Enabled = false;
-            numericUpDown4.Location = new Point(499, 111);
+            numericUpDown4.Location = new Point(599, 110);
             numericUpDown4.Name = "numericUpDown4";
-            numericUpDown4.Size = new Size(47, 27);
+            numericUpDown4.Size = new Size(47, 23);
             numericUpDown4.TabIndex = 6;
             numericUpDown4.ValueChanged += numericUpDown4_ValueChanged;
             // 
@@ -618,7 +618,7 @@
             groupBox8.Controls.Add(pictureBox11);
             groupBox8.Location = new Point(167, -3);
             groupBox8.Name = "groupBox8";
-            groupBox8.Size = new Size(631, 427);
+            groupBox8.Size = new Size(731, 472);
             groupBox8.TabIndex = 3;
             groupBox8.TabStop = false;
             // 
@@ -626,17 +626,17 @@
             // 
             label22.AutoSize = true;
             label22.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            label22.Location = new Point(565, 86);
+            label22.Location = new Point(669, 89);
             label22.Name = "label22";
-            label22.Size = new Size(54, 23);
+            label22.Size = new Size(46, 19);
             label22.TabIndex = 14;
             label22.Text = "Total:";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(509, 105);
+            textBox1.Location = new Point(615, 114);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 27);
+            textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 13;
             // 
             // label21
@@ -647,7 +647,7 @@
             label21.ForeColor = SystemColors.ButtonHighlight;
             label21.Location = new Point(10, 29);
             label21.Name = "label21";
-            label21.Size = new Size(278, 81);
+            label21.Size = new Size(223, 65);
             label21.TabIndex = 12;
             label21.Text = "Carrinho";
             // 
@@ -659,7 +659,7 @@
             label13.ForeColor = SystemColors.ButtonHighlight;
             label13.Location = new Point(65, 53);
             label13.Name = "label13";
-            label13.Size = new Size(0, 54);
+            label13.Size = new Size(0, 45);
             label13.TabIndex = 11;
             // 
             // flowLayoutPanel2
@@ -669,9 +669,9 @@
             flowLayoutPanel2.Controls.Add(groupBox10);
             flowLayoutPanel2.Controls.Add(groupBox11);
             flowLayoutPanel2.Controls.Add(groupBox12);
-            flowLayoutPanel2.Location = new Point(7, 135);
+            flowLayoutPanel2.Location = new Point(0, 143);
             flowLayoutPanel2.Name = "flowLayoutPanel2";
-            flowLayoutPanel2.Size = new Size(622, 289);
+            flowLayoutPanel2.Size = new Size(725, 323);
             flowLayoutPanel2.TabIndex = 9;
             // 
             // groupBox9
@@ -682,14 +682,14 @@
             groupBox9.Controls.Add(pictureBox7);
             groupBox9.Location = new Point(3, 3);
             groupBox9.Name = "groupBox9";
-            groupBox9.Size = new Size(595, 83);
+            groupBox9.Size = new Size(694, 83);
             groupBox9.TabIndex = 9;
             groupBox9.TabStop = false;
             // 
             // button12
             // 
             button12.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button12.Location = new Point(512, 32);
+            button12.Location = new Point(617, 30);
             button12.Name = "button12";
             button12.Size = new Size(71, 27);
             button12.TabIndex = 6;
@@ -703,7 +703,7 @@
             label11.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             label11.Location = new Point(113, 52);
             label11.Name = "label11";
-            label11.Size = new Size(114, 25);
+            label11.Size = new Size(91, 20);
             label11.TabIndex = 5;
             label11.Text = "12 € / metro";
             // 
@@ -713,7 +713,7 @@
             label12.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label12.Location = new Point(109, 21);
             label12.Name = "label12";
-            label12.Size = new Size(228, 32);
+            label12.Size = new Size(176, 25);
             label12.TabIndex = 4;
             label12.Text = "Caleira - Alumímio";
             // 
@@ -737,14 +737,14 @@
             groupBox10.Controls.Add(numericUpDown6);
             groupBox10.Location = new Point(3, 92);
             groupBox10.Name = "groupBox10";
-            groupBox10.Size = new Size(593, 87);
+            groupBox10.Size = new Size(694, 87);
             groupBox10.TabIndex = 9;
             groupBox10.TabStop = false;
             // 
             // button14
             // 
             button14.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button14.Location = new Point(512, 37);
+            button14.Location = new Point(617, 44);
             button14.Name = "button14";
             button14.Size = new Size(71, 27);
             button14.TabIndex = 7;
@@ -758,7 +758,7 @@
             label20.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             label20.Location = new Point(109, 51);
             label20.Name = "label20";
-            label20.Size = new Size(61, 25);
+            label20.Size = new Size(48, 20);
             label20.TabIndex = 8;
             label20.Text = "2,50 €";
             // 
@@ -777,7 +777,7 @@
             label14.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label14.Location = new Point(109, 19);
             label14.Name = "label14";
-            label14.Size = new Size(235, 32);
+            label14.Size = new Size(186, 25);
             label14.TabIndex = 4;
             label14.Text = "Suporte - Alto Inox";
             // 
@@ -795,7 +795,7 @@
             // 
             numericUpDown6.Location = new Point(494, 113);
             numericUpDown6.Name = "numericUpDown6";
-            numericUpDown6.Size = new Size(47, 27);
+            numericUpDown6.Size = new Size(47, 23);
             numericUpDown6.TabIndex = 6;
             // 
             // groupBox11
@@ -806,14 +806,14 @@
             groupBox11.Controls.Add(pictureBox9);
             groupBox11.Location = new Point(3, 185);
             groupBox11.Name = "groupBox11";
-            groupBox11.Size = new Size(595, 90);
+            groupBox11.Size = new Size(694, 90);
             groupBox11.TabIndex = 7;
             groupBox11.TabStop = false;
             // 
             // button15
             // 
             button15.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button15.Location = new Point(512, 44);
+            button15.Location = new Point(617, 41);
             button15.Name = "button15";
             button15.Size = new Size(71, 27);
             button15.TabIndex = 8;
@@ -827,7 +827,7 @@
             label15.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             label15.Location = new Point(109, 51);
             label15.Name = "label15";
-            label15.Size = new Size(104, 25);
+            label15.Size = new Size(83, 20);
             label15.TabIndex = 5;
             label15.Text = "3 € / metro";
             // 
@@ -837,7 +837,7 @@
             label16.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label16.Location = new Point(105, 20);
             label16.Name = "label16";
-            label16.Size = new Size(290, 32);
+            label16.Size = new Size(226, 25);
             label16.TabIndex = 4;
             label16.Text = "Par de Topos - Alumínio";
             // 
@@ -859,14 +859,14 @@
             groupBox12.Controls.Add(pictureBox10);
             groupBox12.Location = new Point(3, 281);
             groupBox12.Name = "groupBox12";
-            groupBox12.Size = new Size(595, 87);
+            groupBox12.Size = new Size(694, 87);
             groupBox12.TabIndex = 8;
             groupBox12.TabStop = false;
             // 
             // button16
             // 
             button16.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button16.Location = new Point(512, 35);
+            button16.Location = new Point(617, 32);
             button16.Name = "button16";
             button16.Size = new Size(71, 27);
             button16.TabIndex = 9;
@@ -880,7 +880,7 @@
             label17.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             label17.Location = new Point(113, 53);
             label17.Name = "label17";
-            label17.Size = new Size(104, 25);
+            label17.Size = new Size(83, 20);
             label17.TabIndex = 5;
             label17.Text = "9 € / metro";
             // 
@@ -890,7 +890,7 @@
             label18.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             label18.Location = new Point(109, 22);
             label18.Name = "label18";
-            label18.Size = new Size(200, 32);
+            label18.Size = new Size(157, 25);
             label18.TabIndex = 4;
             label18.Text = "Tubo - Alumínio";
             // 
@@ -909,27 +909,26 @@
             pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
             pictureBox11.Location = new Point(0, 4);
             pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(630, 422);
+            pictureBox11.Size = new Size(725, 459);
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox11.TabIndex = 10;
             pictureBox11.TabStop = false;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(796, 422);
+            ClientSize = new Size(894, 461);
             Controls.Add(panel1);
-            Controls.Add(groupBox8);
             Controls.Add(groupBox1);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
+            Controls.Add(groupBox8);
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 2, 3, 2);
-            MaximizeBox = false;
             Name = "Form1";
             Text = "MC Caleiras";
             Load += Form1_Load;

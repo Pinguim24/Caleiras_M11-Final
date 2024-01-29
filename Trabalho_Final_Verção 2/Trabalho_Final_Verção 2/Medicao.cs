@@ -21,17 +21,24 @@ namespace Trabalho_Final_Verção_2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            cla2.Nome = Convert.ToString(textBox1.Text);
-            cla2.Gmail = Convert.ToString(textBox2.Text);
-            cla2.Morada = Convert.ToString(textBox4.Text);
-            cla2.Tele = Convert.ToInt32(textBox3.Text);
-
-            DialogResult result = MessageBox.Show(cla2.Meng(cla2.Nome, cla2.Gmail), "Formulário Marcação", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-
-            if (result == DialogResult.OK)
+            try
             {
-                Close();
+                cla2.Nome = Convert.ToString(textBox1.Text);
+                cla2.Gmail = Convert.ToString(textBox2.Text);
+                cla2.Morada = Convert.ToString(textBox4.Text);
+                cla2.Tele = Convert.ToInt32(textBox3.Text);
+
+                DialogResult result = MessageBox.Show(cla2.Meng(cla2.Nome, cla2.Gmail), "Formulário Marcação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+                if (result == DialogResult.OK)
+                {
+                    Close();
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Erro ao finalizar pedido", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
