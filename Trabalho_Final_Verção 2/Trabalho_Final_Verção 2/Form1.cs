@@ -19,11 +19,7 @@ namespace Trabalho_Final_Verção_2
 
         private void Form1_Resize(object sender, EventArgs e)
         {
-            // Verifica se a janela está sendo maximizada
-            if (this.WindowState == FormWindowState.Maximized)
-            {
-                pictureBox1.Dock = DockStyle.Fill;
-            }
+
         }
 
         //Menu
@@ -50,7 +46,7 @@ namespace Trabalho_Final_Verção_2
         private void button2_Click(object sender, EventArgs e)
         {
             try
-            {
+            {                
                 barrapreta.Height = button2.Height;
                 barrapreta.Top = button2.Top;
                 groupBox2.Visible = true;
@@ -364,7 +360,7 @@ namespace Trabalho_Final_Verção_2
 
                 cla3.total = Math.Round(cla3.Total() - cla3.valor, 2);
 
-                textBox1.Text = Convert.ToString(cla3.total);
+                textBox1.Text = Convert.ToString(cla3.total+"€");
 
                 numericUpDown1.Value = 0;
                 cla3.valor = 0;
@@ -383,7 +379,7 @@ namespace Trabalho_Final_Verção_2
 
                 cla3.total = Math.Round(cla3.Total() - cla3.valor2, 2);
 
-                textBox1.Text = Convert.ToString(cla3.total);
+                textBox1.Text = Convert.ToString(cla3.total+"€");
 
                 numericUpDown2.Value = 0;
                 cla3.valor2 = 0;
@@ -402,7 +398,7 @@ namespace Trabalho_Final_Verção_2
 
                 cla3.total = Math.Round(cla3.Total() - cla3.valor3, 2);
 
-                textBox1.Text = Convert.ToString(cla3.total);
+                textBox1.Text = Convert.ToString(cla3.total + "€");
 
                 numericUpDown3.Value = 0;
                 cla3.valor3 = 0;
@@ -421,7 +417,7 @@ namespace Trabalho_Final_Verção_2
 
                 cla3.total = Math.Round(cla3.Total() - cla3.valor4, 2);
 
-                textBox1.Text = Convert.ToString(cla3.total);
+                textBox1.Text = Convert.ToString(cla3.total + "€");
 
                 numericUpDown4.Value = 0;
                 cla3.valor4 = 0;

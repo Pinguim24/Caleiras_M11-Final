@@ -15,8 +15,6 @@ No programa criado devem existir, pelo menos:
 ▪ Três botões
 ▪ Duas Classes
 ▪ Utilizar herança e polimorfismo.
-▪ Todo o código criado nos botões deve ter o tratamento de excepções.
-Prof. João Leal Página 2
 
 
 A FAZER:
@@ -26,3 +24,8 @@ A FAZER:
 ▪ Todos as pastas e ficheiros devem ser criados na pasta Debug do programa.
 ▪ Sempre que uma pasta e/ou ficheiro não exista deve ser enviada mensagem ao utilizador com
 essa informação.
+
+
+FEITO:
+▪ Todo o código criado nos botões deve ter o tratamento de excepções.
+Prof. João Leal Página 2
