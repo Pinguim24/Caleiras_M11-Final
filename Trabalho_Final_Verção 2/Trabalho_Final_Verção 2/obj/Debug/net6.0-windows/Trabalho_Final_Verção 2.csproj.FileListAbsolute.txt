@@ -116,3 +116,4 @@ C:\Users\pingu\OneDrive\Documentos\GitHub\M11\modulo-11-tarefa-final-Pinguim27\T
 C:\Users\pingu\OneDrive\Documentos\GitHub\M11\modulo-11-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.pdb
 C:\Users\pingu\OneDrive\Documentos\GitHub\M11\modulo-11-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção 2.genruntimeconfig.cache
 C:\Users\pingu\OneDrive\Documentos\GitHub\M11\modulo-11-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\ref\Trabalho_Final_Verção 2.dll
+C:\Users\pingu\OneDrive\Documentos\GitHub\M11\modulo-11-tarefa-final-Pinguim27\Trabalho_Final_Verção 2\Trabalho_Final_Verção 2\obj\Debug\net6.0-windows\Trabalho_Final_Verção_2.teste.resources

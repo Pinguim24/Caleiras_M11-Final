@@ -10,14 +10,11 @@ namespace Trabalho_Final_Verção_2
             groupBox2.Visible = false;
             groupBox3.Visible = false;
             groupBox8.Visible = false;
+            panel2.Visible = false;
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Resize(object sender, EventArgs e)
         {
 
         }
@@ -37,7 +34,7 @@ namespace Trabalho_Final_Verção_2
                 groupBox3.Visible = false;
                 groupBox8.Visible = false;
             }
-            catch 
+            catch
             {
                 MessageBox.Show("Erro no Início", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
@@ -46,7 +43,7 @@ namespace Trabalho_Final_Verção_2
         private void button2_Click(object sender, EventArgs e)
         {
             try
-            {                
+            {
                 barrapreta.Height = button2.Height;
                 barrapreta.Top = button2.Top;
                 groupBox2.Visible = true;
@@ -57,7 +54,7 @@ namespace Trabalho_Final_Verção_2
                 groupBox3.Visible = false;
                 groupBox8.Visible = false;
             }
-            catch 
+            catch
             {
                 MessageBox.Show("Erro em Serviços", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
@@ -77,7 +74,7 @@ namespace Trabalho_Final_Verção_2
                 groupBox2.Visible = false;
                 groupBox8.Visible = false;
             }
-            catch 
+            catch
             {
                 MessageBox.Show("Erro em Produtos", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
@@ -159,7 +156,7 @@ namespace Trabalho_Final_Verção_2
                 Instalacao instalacao = new Instalacao();
                 instalacao.Show();
             }
-            catch 
+            catch
             {
                 MessageBox.Show("Erro ao fazer o pedido", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
@@ -196,7 +193,7 @@ namespace Trabalho_Final_Verção_2
 
                 cla3.cont = 1;
             }
-            catch 
+            catch
             {
                 MessageBox.Show("Erro ao adicionar ao carrinho", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
@@ -360,7 +357,7 @@ namespace Trabalho_Final_Verção_2
 
                 cla3.total = Math.Round(cla3.Total() - cla3.valor, 2);
 
-                textBox1.Text = Convert.ToString(cla3.total+"€");
+                textBox1.Text = Convert.ToString(cla3.total + "€");
 
                 numericUpDown1.Value = 0;
                 cla3.valor = 0;
@@ -379,7 +376,7 @@ namespace Trabalho_Final_Verção_2
 
                 cla3.total = Math.Round(cla3.Total() - cla3.valor2, 2);
 
-                textBox1.Text = Convert.ToString(cla3.total+"€");
+                textBox1.Text = Convert.ToString(cla3.total + "€");
 
                 numericUpDown2.Value = 0;
                 cla3.valor2 = 0;
@@ -426,6 +423,53 @@ namespace Trabalho_Final_Verção_2
             {
                 MessageBox.Show("Erro ao remover", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        //Botão pag_utilizador
+        private void button17_Click(object sender, EventArgs e)
+        {
+            panel2.Visible = true;
+            panel5.Visible = true;
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+
+        //Página UTILIZADOR
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            panel2.Visible = false;
+        }
+
+        //feedback
+        private void button21_Click(object sender, EventArgs e)
+        {
+
+            barrapreta2.Height = button21.Height;
+            barrapreta2.Top = button21.Top;
+
+
+
+            panel5.Visible = true;
+        }
+
+        //faturas
+        private void button20_Click(object sender, EventArgs e)
+        {
+            barrapreta2.Height = button20.Height;
+            barrapreta2.Top = button20.Top;
+
+            panel5.Visible = false;
+        }
+
+        //enviar feedback
+        private void button19_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
