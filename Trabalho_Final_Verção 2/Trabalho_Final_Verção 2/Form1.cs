@@ -1,4 +1,5 @@
 using System.Drawing;
+using System.Windows.Forms;
 
 namespace Trabalho_Final_Verção_2
 {
@@ -469,7 +470,44 @@ namespace Trabalho_Final_Verção_2
         //enviar feedback
         private void button19_Click(object sender, EventArgs e)
         {
+            //Nome do Ficheiro
+            int i = 0;
 
+            i += 1;
+
+            string feedb = "FeedBack("+i+")";
+
+            string pastaProg = Environment.CurrentDirectory; //Serve pa encontrar o caminho em que o programa está a ser executado
+
+            //Para por tudo num caminho só
+            string caminhoFicheiro = Path.Combine(pastaProg, feedb + ".txt");
+
+            try
+            {
+                FileStream fs = new FileStream(caminhoFicheiro, FileMode.OpenOrCreate);
+
+                string texto = textBox2.Text;
+
+                if (fs.Length == 0)
+                {//ficheiro vazio
+
+                    MessageBox.Show("A enviar...");
+
+                    StreamWriter sw = new StreamWriter(fs);
+
+                    sw.Write(texto);
+
+                    sw.Close();
+                }
+
+                fs.Close();
+
+                textBox1.Clear();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("\n\nErro ao enviar dados!!", "Erro");
+            }
         }
     }
 }
