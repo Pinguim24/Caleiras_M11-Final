@@ -16,18 +16,6 @@ No programa criado devem existir, pelo menos:
 ▪ Duas Classes
 ▪ Utilizar herança e polimorfismo.
 
-
-A FAZER:
-
-▪ Criação, consulta e eliminação de ficheiro(s) de texto e/ou de dados.
-▪ Inserção, consulta e eliminação de dados no ficheiro de forma correta.
-
-
-Criação, Inserção- FEITAS
-
-Eleminação e Consulta -  Por fazer
-
-
 INFO:
 ▪ Todos as pastas e ficheiros devem ser criados na pasta Debug do programa.
 ▪ Sempre que uma pasta e/ou ficheiro não exista deve ser enviada mensagem ao utilizador com
@@ -35,5 +23,9 @@ essa informação.
 
 
 FEITO:
+
+▪ Criação, consulta e eliminação de ficheiro(s) de texto e/ou de dados.
+▪ Inserção, consulta e eliminação de dados no ficheiro de forma correta.
 ▪ Todo o código criado nos botões deve ter o tratamento de excepções.
+
 Prof. João Leal Página 2
