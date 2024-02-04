@@ -21,6 +21,14 @@ A FAZER:
 
 ▪ Criação, consulta e eliminação de ficheiro(s) de texto e/ou de dados.
 ▪ Inserção, consulta e eliminação de dados no ficheiro de forma correta.
+
+
+Criação, Inserção- FEITAS
+
+Eleminação e Consulta -  Por fazer
+
+
+INFO:
 ▪ Todos as pastas e ficheiros devem ser criados na pasta Debug do programa.
 ▪ Sempre que uma pasta e/ou ficheiro não exista deve ser enviada mensagem ao utilizador com
 essa informação.

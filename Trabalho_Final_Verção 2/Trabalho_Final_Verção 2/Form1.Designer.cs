@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             panel1 = new Panel();
             button17 = new Button();
             button1 = new Button();
@@ -108,12 +111,19 @@
             button20 = new Button();
             barrapreta2 = new Panel();
             button18 = new Button();
+            panel4 = new Panel();
+            button24 = new Button();
+            button23 = new Button();
+            dataGridView1 = new DataGridView();
+            Column1 = new DataGridViewTextBoxColumn();
+            textBox3 = new TextBox();
+            label24 = new Label();
             panel5 = new Panel();
             button19 = new Button();
             textBox2 = new TextBox();
             label23 = new Label();
-            panel4 = new Panel();
-            label24 = new Label();
+            textBox4 = new TextBox();
+            label25 = new Label();
             panel1.SuspendLayout();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -147,8 +157,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
-            panel5.SuspendLayout();
             panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            panel5.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -988,8 +999,8 @@
             // panel2
             // 
             panel2.Controls.Add(panel3);
-            panel2.Controls.Add(panel5);
             panel2.Controls.Add(panel4);
+            panel2.Controls.Add(panel5);
             panel2.Location = new Point(-3, -7);
             panel2.Name = "panel2";
             panel2.Size = new Size(889, 477);
@@ -1068,6 +1079,117 @@
             button18.UseVisualStyleBackColor = true;
             button18.Click += button18_Click;
             // 
+            // panel4
+            // 
+            panel4.BackgroundImage = (Image)resources.GetObject("panel4.BackgroundImage");
+            panel4.BackgroundImageLayout = ImageLayout.Stretch;
+            panel4.Controls.Add(textBox4);
+            panel4.Controls.Add(label25);
+            panel4.Controls.Add(textBox3);
+            panel4.Controls.Add(button24);
+            panel4.Controls.Add(button23);
+            panel4.Controls.Add(dataGridView1);
+            panel4.Controls.Add(label24);
+            panel4.Location = new Point(164, 7);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(725, 465);
+            panel4.TabIndex = 6;
+            // 
+            // button24
+            // 
+            button24.BackgroundImage = (Image)resources.GetObject("button24.BackgroundImage");
+            button24.FlatAppearance.BorderSize = 0;
+            button24.FlatStyle = FlatStyle.Flat;
+            button24.Location = new Point(652, 423);
+            button24.Name = "button24";
+            button24.Size = new Size(25, 25);
+            button24.TabIndex = 6;
+            button24.UseVisualStyleBackColor = true;
+            button24.Click += button24_Click;
+            // 
+            // button23
+            // 
+            button23.BackgroundImage = (Image)resources.GetObject("button23.BackgroundImage");
+            button23.FlatAppearance.BorderSize = 0;
+            button23.FlatStyle = FlatStyle.Flat;
+            button23.Location = new Point(652, 92);
+            button23.Name = "button23";
+            button23.Size = new Size(25, 25);
+            button23.TabIndex = 5;
+            button23.UseVisualStyleBackColor = true;
+            button23.Click += button23_Click;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.AllowUserToOrderColumns = true;
+            dataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.None;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Control;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.ColumnHeadersVisible = false;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1 });
+            dataGridView1.Cursor = Cursors.Hand;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = SystemColors.Window;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
+            dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridView1.Location = new Point(31, 118);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = SystemColors.Control;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
+            dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridView1.RowTemplate.Height = 25;
+            dataGridView1.Size = new Size(143, 297);
+            dataGridView1.TabIndex = 4;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // Column1
+            // 
+            Column1.HeaderText = "Faturas";
+            Column1.Name = "Column1";
+            Column1.ReadOnly = true;
+            // 
+            // textBox3
+            // 
+            textBox3.BackColor = Color.LightGray;
+            textBox3.BorderStyle = BorderStyle.FixedSingle;
+            textBox3.Enabled = false;
+            textBox3.Location = new Point(173, 118);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.ScrollBars = ScrollBars.Vertical;
+            textBox3.Size = new Size(522, 297);
+            textBox3.TabIndex = 3;
+            textBox3.TextAlign = HorizontalAlignment.Center;
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.BackColor = Color.Transparent;
+            label24.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label24.ForeColor = Color.White;
+            label24.Location = new Point(18, 20);
+            label24.Name = "label24";
+            label24.Size = new Size(175, 37);
+            label24.TabIndex = 0;
+            label24.Text = "Suas Faturas";
+            // 
             // panel5
             // 
             panel5.BackColor = Color.White;
@@ -1122,27 +1244,22 @@
             label23.TabIndex = 2;
             label23.Text = "Envie-nos um FeedBack sobre o nosso serviço";
             // 
-            // panel4
+            // textBox4
             // 
-            panel4.BackgroundImage = (Image)resources.GetObject("panel4.BackgroundImage");
-            panel4.BackgroundImageLayout = ImageLayout.Stretch;
-            panel4.Controls.Add(label24);
-            panel4.Location = new Point(164, 7);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(725, 465);
-            panel4.TabIndex = 6;
+            textBox4.Location = new Point(502, 424);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(144, 23);
+            textBox4.TabIndex = 7;
             // 
-            // label24
+            // label25
             // 
-            label24.AutoSize = true;
-            label24.BackColor = Color.Transparent;
-            label24.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label24.ForeColor = Color.White;
-            label24.Location = new Point(18, 20);
-            label24.Name = "label24";
-            label24.Size = new Size(175, 37);
-            label24.TabIndex = 0;
-            label24.Text = "Suas Faturas";
+            label25.AutoSize = true;
+            label25.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label25.Location = new Point(230, 426);
+            label25.Name = "label25";
+            label25.Size = new Size(274, 17);
+            label25.TabIndex = 8;
+            label25.Text = "Insira o nome do ficheiro que quer apagar:\r\n";
             // 
             // Form1
             // 
@@ -1208,10 +1325,11 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             panel2.ResumeLayout(false);
             panel3.ResumeLayout(false);
-            panel5.ResumeLayout(false);
-            panel5.PerformLayout();
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -1302,5 +1420,12 @@
         private Panel panel4;
         private Label label24;
         private Button button22;
+        private TextBox textBox3;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn Column1;
+        private Button button24;
+        private Button button23;
+        private TextBox textBox4;
+        private Label label25;
     }
 }

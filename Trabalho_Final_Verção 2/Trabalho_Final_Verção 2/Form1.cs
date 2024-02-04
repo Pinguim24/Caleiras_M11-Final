@@ -521,6 +521,7 @@ namespace Trabalho_Final_Verção_2
             panel4.Visible = true;
         }
 
+        //Botão finalizar pedido
         private void button22_Click(object sender, EventArgs e)
         {
             try
@@ -530,7 +531,7 @@ namespace Trabalho_Final_Verção_2
                     i += 1;
 
                     string prod1 = "", prod2 = "", prod3 = "", prod4 = "";
-                    double totalFat=cla3.Total();
+                    double totalFat = cla3.Total();
 
 
                     if (cla3.cont == 1)
@@ -539,7 +540,7 @@ namespace Trabalho_Final_Verção_2
                     }
                     else if (cla3.cont == 0)
                     {
-                        totalFat -=cla3.Quantidade();
+                        totalFat -= cla3.Quantidade();
                     }
 
 
@@ -572,24 +573,27 @@ namespace Trabalho_Final_Verção_2
                         totalFat -= cla3.Quantidade4();
                     }
 
-                    //Nome do Ficheiro
-                    string fatura = "Fatura(" + i + ")";
 
-                    string pastaProg = Environment.CurrentDirectory;
+
+                    //Nome do Ficheiro e da pasta
+                    string fatura = "Fatura(" + i + ")";
+                    string nomePasta = "Faturas";
+
+                    string pastaProg = Environment.CurrentDirectory; //caminho da pasta onde está a ser executado
 
                     //Para por tudo num caminho só
-                    string caminhoFicheiro = Path.Combine(pastaProg, fatura + ".txt");
-
+                    string caminhoFinal = Path.Combine(pastaProg, nomePasta);
+                    string caminhoFicheiro = Path.Combine(caminhoFinal, fatura + ".txt");
 
                     FileStream fs = new FileStream(caminhoFicheiro, FileMode.OpenOrCreate);
 
-                    string texto = "\tMc Caleiras" + prod1 + prod2 + prod3 + prod4 +"\n\n\nTotal: "+ totalFat + "\n\nObrigado pela sua compra :)";
+                    string texto = "\tMc Caleiras" + prod1 + prod2 + prod3 + prod4 + "\n\n\nTotal: " + totalFat + "\n\nObrigado pela sua compra :)";
 
                     if (fs.Length == 0)
                     {//ficheiro vazio
                         StreamWriter sw = new StreamWriter(fs);
 
-                        MessageBox.Show("Compra finalizado com sucesso !!");
+                        MessageBox.Show("Compra finalizado com sucesso !!", ":)", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                         sw.Write(texto);
 
@@ -614,6 +618,8 @@ namespace Trabalho_Final_Verção_2
                         cla3.cont4 = 0;
                     }
                     fs.Close();
+
+                    dataGridView1.Rows.Add(fatura);
                 }
                 else
                 {
@@ -623,6 +629,113 @@ namespace Trabalho_Final_Verção_2
             catch (Exception)
             {
                 MessageBox.Show("\n\nErro ao finalizar pedido!!", "Erro");
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                // Verifica se a célula clicada é válida
+                if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+                {
+                    // Obtém o valor da célula clicada
+                    string valorCelula = dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].Value.ToString();
+
+                    string nomePasta = "Faturas";
+
+                    string pastaProg = Environment.CurrentDirectory; //caminho da pasta onde está a ser executado
+
+                    //Para por tudo num caminho só
+                    string caminhoFinal = Path.Combine(pastaProg, nomePasta);
+                    string caminhoFicheiro = Path.Combine(caminhoFinal, valorCelula + ".txt");
+
+
+                    if (valorCelula != null)
+                    {
+                        FileStream fs = new FileStream(caminhoFicheiro, FileMode.Open);
+
+                        if (fs.Length != 0)
+                        {//ficheiro não está vazio
+
+                            StreamReader sr = new StreamReader(fs);
+
+                            string texto;
+
+                            texto = sr.ReadToEnd();
+
+                            textBox3.Text = texto;
+
+                            sr.Close();
+                        }
+                    }
+                    else
+                    {
+                        // Se o valor da célula for nulo, limpa a TextBox
+                        textBox3.Clear();
+                    }
+                }
+            }
+            catch 
+            {
+                MessageBox.Show("Erro, essa célula já não deve existir");
+            }
+
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            textBox3.Clear();
+            dataGridView1.ClearSelection();
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DialogResult result = MessageBox.Show("Eliminar uma fatura é ILEGAL","SEU BURRO", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if (result == DialogResult.Yes)
+                {
+                    if (textBox4.Text == "")
+                    {
+                        MessageBox.Show("Tem introduzir o nome da pasta !!", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        string nomePasta = "Faturas";
+
+                        string pastaProg = Environment.CurrentDirectory; //caminho da pasta onde está a ser executado
+
+                        string apagarF = textBox4.Text;
+
+                        //Para por tudo num caminho só
+                        string caminhoFinal = Path.Combine(pastaProg, nomePasta);
+                        string caminhoFicheiro = Path.Combine(caminhoFinal, apagarF + ".txt");
+
+                        if (File.Exists(caminhoFicheiro))
+                        {
+                            File.Delete(caminhoFicheiro);
+                            MessageBox.Show("Ficheiro eliminado com sucesso!");
+                        }
+                        else
+                        {
+                            MessageBox.Show("O ficheiro não existe.");
+                        }
+
+                        dataGridView1.Rows.Clear();
+                        textBox3.Clear();
+                        textBox4.Clear();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Boa escolha ;)", "Uff");
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("\n\nErro ao eliminar a pasta!!" + "Erro");
             }
         }
     }
