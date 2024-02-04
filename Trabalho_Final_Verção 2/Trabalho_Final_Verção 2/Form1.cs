@@ -12,7 +12,7 @@ namespace Trabalho_Final_Verção_2
             groupBox3.Visible = false;
             groupBox8.Visible = false;
             panel2.Visible = false;
-
+            panel4.Visible = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -439,7 +439,8 @@ namespace Trabalho_Final_Verção_2
         }
 
 
-        //Página UTILIZADOR
+        //--------------------------------Página UTILIZADOR----------------------------
+
 
         private void button18_Click(object sender, EventArgs e)
         {
@@ -453,60 +454,175 @@ namespace Trabalho_Final_Verção_2
             barrapreta2.Height = button21.Height;
             barrapreta2.Top = button21.Top;
 
-
-
             panel5.Visible = true;
+            panel4.Visible = false;
         }
 
-        //faturas
+        public int i = 0;
+
+        //enviar feedback
+        private void button19_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (textBox2.Text == "")
+                {
+                    MessageBox.Show("Ups parece que não escreveu nada no seu feedback", ":/", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+
+                    //Nome do Ficheiro
+                    i += 1;
+
+                    string feedb = "FeedBack(" + i + ")";
+
+                    string pastaProg = Environment.CurrentDirectory; //Serve pa encontrar o caminho em que o programa está a ser executado
+
+                    //Para por tudo num caminho só
+                    string caminhoFicheiro = Path.Combine(pastaProg, feedb + ".txt");
+
+
+                    FileStream fs = new FileStream(caminhoFicheiro, FileMode.OpenOrCreate);
+
+                    string texto = textBox2.Text;
+
+                    if (fs.Length == 0)
+                    {//ficheiro vazio
+
+                        MessageBox.Show("A enviar...", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        StreamWriter sw = new StreamWriter(fs);
+
+                        sw.Write(texto);
+
+                        sw.Close();
+                    }
+
+                    fs.Close();
+
+                    textBox2.Clear();
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("\n\nErro ao enviar dados!!", "Erro");
+                textBox2.Clear();
+            }
+        }
+
+        //Faturas
         private void button20_Click(object sender, EventArgs e)
         {
             barrapreta2.Height = button20.Height;
             barrapreta2.Top = button20.Top;
 
             panel5.Visible = false;
+            panel4.Visible = true;
         }
 
-        //enviar feedback
-        private void button19_Click(object sender, EventArgs e)
+        private void button22_Click(object sender, EventArgs e)
         {
-            //Nome do Ficheiro
-            int i = 0;
-
-            i += 1;
-
-            string feedb = "FeedBack("+i+")";
-
-            string pastaProg = Environment.CurrentDirectory; //Serve pa encontrar o caminho em que o programa está a ser executado
-
-            //Para por tudo num caminho só
-            string caminhoFicheiro = Path.Combine(pastaProg, feedb + ".txt");
-
             try
             {
-                FileStream fs = new FileStream(caminhoFicheiro, FileMode.OpenOrCreate);
+                if (cla3.cont == 1 || cla3.cont2 == 1 || cla3.cont3 == 1 || cla3.cont4 == 1)
+                {
+                    i += 1;
 
-                string texto = textBox2.Text;
+                    string prod1 = "", prod2 = "", prod3 = "", prod4 = "";
+                    double totalFat=cla3.Total();
 
-                if (fs.Length == 0)
-                {//ficheiro vazio
 
-                    MessageBox.Show("A enviar...");
+                    if (cla3.cont == 1)
+                    {
+                        prod1 = "\n\nCaleira - Alumíno   12€ / metro" + "\nQuantidade:" + cla3.quant;
+                    }
+                    else if (cla3.cont == 0)
+                    {
+                        totalFat -=cla3.Quantidade();
+                    }
 
-                    StreamWriter sw = new StreamWriter(fs);
 
-                    sw.Write(texto);
+                    if (cla3.cont2 == 1)
+                    {
+                        prod2 = "\n\nSuporte - Alto Inox   2,50€" + "\nQuantidade:" + cla3.quant2;
+                    }
+                    else if (cla3.cont2 == 0)
+                    {
+                        totalFat -= cla3.Quantidade2();
+                    }
 
-                    sw.Close();
+
+                    if (cla3.cont3 == 1)
+                    {
+                        prod3 = "\n\nPar de Topos -Alumínio   3€" + "\nQuantidade:" + cla3.quant3;
+                    }
+                    else if (cla3.cont3 == 0)
+                    {
+                        totalFat -= cla3.Quantidade3();
+                    }
+
+
+                    if (cla3.cont4 == 1)
+                    {
+                        prod4 = "\n\nTubo - Alumínio   9€ / metro" + "\nQuantidade:" + cla3.quant4;
+                    }
+                    else if (cla3.cont4 == 0)
+                    {
+                        totalFat -= cla3.Quantidade4();
+                    }
+
+                    //Nome do Ficheiro
+                    string fatura = "Fatura(" + i + ")";
+
+                    string pastaProg = Environment.CurrentDirectory;
+
+                    //Para por tudo num caminho só
+                    string caminhoFicheiro = Path.Combine(pastaProg, fatura + ".txt");
+
+
+                    FileStream fs = new FileStream(caminhoFicheiro, FileMode.OpenOrCreate);
+
+                    string texto = "\tMc Caleiras" + prod1 + prod2 + prod3 + prod4 +"\n\n\nTotal: "+ totalFat + "\n\nObrigado pela sua compra :)";
+
+                    if (fs.Length == 0)
+                    {//ficheiro vazio
+                        StreamWriter sw = new StreamWriter(fs);
+
+                        MessageBox.Show("Compra finalizado com sucesso !!");
+
+                        sw.Write(texto);
+
+                        sw.Close();
+
+                        //FAZER RESET
+                        groupBox9.Visible = false;
+                        groupBox10.Visible = false;
+                        groupBox11.Visible = false;
+                        groupBox12.Visible = false;
+
+                        textBox1.Clear();
+
+                        numericUpDown1.Value = 0;
+                        numericUpDown2.Value = 0;
+                        numericUpDown3.Value = 0;
+                        numericUpDown4.Value = 0;
+
+                        cla3.cont = 0;
+                        cla3.cont2 = 0;
+                        cla3.cont3 = 0;
+                        cla3.cont4 = 0;
+                    }
+                    fs.Close();
                 }
-
-                fs.Close();
-
-                textBox1.Clear();
+                else
+                {
+                    MessageBox.Show("Impossível finalizar compra não tem nada no carrinho", "Erro catastrófico", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
             }
             catch (Exception)
             {
-                MessageBox.Show("\n\nErro ao enviar dados!!", "Erro");
+                MessageBox.Show("\n\nErro ao finalizar pedido!!", "Erro");
             }
         }
     }
