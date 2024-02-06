@@ -664,7 +664,7 @@ namespace Trabalho_Final_Verção_2
 
                             texto = sr.ReadToEnd();
 
-                            textBox3.Text = texto;
+                            richTextBox1.Text = texto;
 
                             sr.Close();
                         }
@@ -672,11 +672,11 @@ namespace Trabalho_Final_Verção_2
                     else
                     {
                         // Se o valor da célula for nulo, limpa a TextBox
-                        textBox3.Clear();
+                        richTextBox1.Clear();
                     }
                 }
             }
-            catch 
+            catch
             {
                 MessageBox.Show("Erro, essa célula já não deve existir");
             }
@@ -685,7 +685,7 @@ namespace Trabalho_Final_Verção_2
 
         private void button23_Click(object sender, EventArgs e)
         {
-            textBox3.Clear();
+            richTextBox1.Clear();
             dataGridView1.ClearSelection();
         }
 
@@ -693,7 +693,7 @@ namespace Trabalho_Final_Verção_2
         {
             try
             {
-                DialogResult result = MessageBox.Show("Eliminar uma fatura é ILEGAL","SEU BURRO", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                DialogResult result = MessageBox.Show("Eliminar uma fatura é ILEGAL", "SEU BURRO", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
                 if (result == DialogResult.Yes)
                 {
@@ -724,7 +724,7 @@ namespace Trabalho_Final_Verção_2
                         }
 
                         dataGridView1.Rows.Clear();
-                        textBox3.Clear();
+                        richTextBox1.Clear();
                         textBox4.Clear();
                     }
                 }
@@ -735,7 +735,7 @@ namespace Trabalho_Final_Verção_2
             }
             catch (Exception)
             {
-                MessageBox.Show("\n\nErro ao eliminar a pasta!!" + "Erro");
+                MessageBox.Show("\n\nErro ao eliminar o ficheiro!!" + "Erro");
             }
         }
     }

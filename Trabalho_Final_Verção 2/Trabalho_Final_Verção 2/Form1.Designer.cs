@@ -112,18 +112,18 @@
             barrapreta2 = new Panel();
             button18 = new Button();
             panel4 = new Panel();
+            richTextBox1 = new RichTextBox();
+            textBox4 = new TextBox();
+            label25 = new Label();
             button24 = new Button();
             button23 = new Button();
             dataGridView1 = new DataGridView();
             Column1 = new DataGridViewTextBoxColumn();
-            textBox3 = new TextBox();
             label24 = new Label();
             panel5 = new Panel();
             button19 = new Button();
             textBox2 = new TextBox();
             label23 = new Label();
-            textBox4 = new TextBox();
-            label25 = new Label();
             panel1.SuspendLayout();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -1083,9 +1083,9 @@
             // 
             panel4.BackgroundImage = (Image)resources.GetObject("panel4.BackgroundImage");
             panel4.BackgroundImageLayout = ImageLayout.Stretch;
+            panel4.Controls.Add(richTextBox1);
             panel4.Controls.Add(textBox4);
             panel4.Controls.Add(label25);
-            panel4.Controls.Add(textBox3);
             panel4.Controls.Add(button24);
             panel4.Controls.Add(button23);
             panel4.Controls.Add(dataGridView1);
@@ -1094,6 +1094,35 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(725, 465);
             panel4.TabIndex = 6;
+            // 
+            // richTextBox1
+            // 
+            richTextBox1.BackColor = Color.Gainsboro;
+            richTextBox1.BorderStyle = BorderStyle.None;
+            richTextBox1.Location = new Point(174, 118);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.ReadOnly = true;
+            richTextBox1.ScrollBars = RichTextBoxScrollBars.ForcedVertical;
+            richTextBox1.Size = new Size(518, 297);
+            richTextBox1.TabIndex = 9;
+            richTextBox1.Text = "";
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(502, 424);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(144, 23);
+            textBox4.TabIndex = 7;
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label25.Location = new Point(230, 426);
+            label25.Name = "label25";
+            label25.Size = new Size(274, 17);
+            label25.TabIndex = 8;
+            label25.Text = "Insira o nome do ficheiro que quer apagar:\r\n";
             // 
             // button24
             // 
@@ -1112,7 +1141,7 @@
             button23.BackgroundImage = (Image)resources.GetObject("button23.BackgroundImage");
             button23.FlatAppearance.BorderSize = 0;
             button23.FlatStyle = FlatStyle.Flat;
-            button23.Location = new Point(652, 92);
+            button23.Location = new Point(652, 91);
             button23.Name = "button23";
             button23.Size = new Size(25, 25);
             button23.TabIndex = 5;
@@ -1164,19 +1193,6 @@
             Column1.HeaderText = "Faturas";
             Column1.Name = "Column1";
             Column1.ReadOnly = true;
-            // 
-            // textBox3
-            // 
-            textBox3.BackColor = Color.LightGray;
-            textBox3.BorderStyle = BorderStyle.FixedSingle;
-            textBox3.Enabled = false;
-            textBox3.Location = new Point(173, 118);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.ScrollBars = ScrollBars.Vertical;
-            textBox3.Size = new Size(522, 297);
-            textBox3.TabIndex = 3;
-            textBox3.TextAlign = HorizontalAlignment.Center;
             // 
             // label24
             // 
@@ -1243,23 +1259,6 @@
             label23.Size = new Size(419, 25);
             label23.TabIndex = 2;
             label23.Text = "Envie-nos um FeedBack sobre o nosso serviço";
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(502, 424);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(144, 23);
-            textBox4.TabIndex = 7;
-            // 
-            // label25
-            // 
-            label25.AutoSize = true;
-            label25.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label25.Location = new Point(230, 426);
-            label25.Name = "label25";
-            label25.Size = new Size(274, 17);
-            label25.TabIndex = 8;
-            label25.Text = "Insira o nome do ficheiro que quer apagar:\r\n";
             // 
             // Form1
             // 
@@ -1420,12 +1419,12 @@
         private Panel panel4;
         private Label label24;
         private Button button22;
-        private TextBox textBox3;
         private DataGridView dataGridView1;
         private DataGridViewTextBoxColumn Column1;
         private Button button24;
         private Button button23;
         private TextBox textBox4;
         private Label label25;
+        private RichTextBox richTextBox1;
     }
 }
