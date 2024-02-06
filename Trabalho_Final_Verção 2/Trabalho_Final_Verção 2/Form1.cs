@@ -17,7 +17,20 @@ namespace Trabalho_Final_Verção_2
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            string nomePasta = "Faturas";
 
+            string pastaProg = Environment.CurrentDirectory;
+
+            string caminhoPasta = Path.Combine(pastaProg, nomePasta);
+
+            if (!Directory.Exists(caminhoPasta))
+            {
+                Directory.CreateDirectory(caminhoPasta);
+            }
+            else
+            {
+
+            }
         }
 
         //Menu
@@ -587,7 +600,7 @@ namespace Trabalho_Final_Verção_2
 
                     FileStream fs = new FileStream(caminhoFicheiro, FileMode.OpenOrCreate);
 
-                    string texto = "\tMc Caleiras" + prod1 + prod2 + prod3 + prod4 + "\n\n\nTotal: " + totalFat + "\n\nObrigado pela sua compra :)";
+                    string texto = "\tMc Caleiras" + prod1 + prod2 + prod3 + prod4 + "\n\n\nTotal: " + totalFat + "€" + "\n\nObrigado pela sua compra :)";
 
                     if (fs.Length == 0)
                     {//ficheiro vazio
